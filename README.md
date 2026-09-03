@@ -12,7 +12,7 @@ Designed and developed a complete electrical distribution and controls drawing p
 
 The project develops the electrical system from a 600Y/347 V main service through 208Y/120 V secondary distribution, lighting and receptacle panels, mechanical loads, motor control, and rooftop HVAC equipment.
 
-The completed project consists of eight coordinated electrical Drawings supported by a separate Electrical Calculations & Design Basis document.
+The completed project consists of eight coordinated electrical drawings supported by a separate Electrical Calculations & Design Basis document.
 
 ## Project Documents
 
@@ -296,7 +296,7 @@ A separate Electrical Calculations & Design Basis document was developed to supp
 | MTR-1 | 15 hp / ~14.1 A |
 | Representative DP-1 Voltage Drop | 1.72 V / 0.29% |
 
-**[View the Complete Electrical Calculations](Dcuments/COMMERCIAL%20OFFICE%20CALCULATIONS.pdf)**
+**[View the Complete Electrical Calculations](Documents/COMMERCIAL%20OFFICE%20CALCULATIONS.pdf)**
 
 ---
 
@@ -313,7 +313,7 @@ A separate Electrical Calculations & Design Basis document was developed to supp
 | E-401 | MCC-1 Motor Power & Control |
 | E-402 | HVAC Power & Control |
 
-**[View the Complete 8-Sheet Drawing Package](Dcuments/Commercial%20Office%20Electrical%20Drawing%20Set.pdf)**
+**[View the Complete 8-Sheet Drawing Package](Documents/Commercial%20Office%20Electrical%20Drawing%20Set.pdf)**
 
 ---
 
@@ -352,7 +352,7 @@ Through this project, I gained hands-on experience with:
 - Developing HAND/AUTO motor control and BAS interfaces.
 - Coordinating packaged HVAC equipment with electrical distribution.
 - Performing representative feeder voltage-drop calculations.
-- Developing coordinated electrical Drawings and supporting calculation documentation.
+- Developing coordinated electrical drawings and supporting calculation documentation.
 - Understanding the relationship between system architecture, calculations, equipment selection, and electrical documentation.
 
 ## Project Scope
