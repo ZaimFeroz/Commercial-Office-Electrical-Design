@@ -14,6 +14,11 @@ The project develops the electrical system from a 600Y/347 V main service throug
 
 The completed project consists of eight coordinated electrical drawings supported by a separate Electrical Calculations & Design Basis document.
 
+## Project Documents
+
+- [Complete 8-Sheet Electrical Drawing Set](docs/Commercial%20Office%20Electrical%20Drawing%20Set.pdf)
+- [Electrical Calculations & Design Basis](docs/COMMERCIAL%20OFFICE%20CALCULATIONS.pdf)
+
 ## Features
 
 - 600Y/347 V, 3-phase, 4-wire main electrical distribution
@@ -61,6 +66,8 @@ MSB-1 distributes power through six major feeders:
 
 T-1 and T-2 step the 600 V distribution system down to 208Y/120 V for the building lighting and receptacle systems.
 
+---
+
 ## Main Power Distribution
 
 <p align="center">
@@ -75,6 +82,8 @@ T-1 and T-2 step the 600 V distribution system down to 208Y/120 V for the buildi
 - Developed transformer-fed 208Y/120 V secondary distribution.
 - Coordinated breaker, feeder, and equipment identification across the drawing package.
 
+---
+
 ## Secondary Distribution
 
 <p align="center">
@@ -85,15 +94,19 @@ T-1 and T-2 step the 600 V distribution system down to 208Y/120 V for the buildi
 
 The secondary distribution system consists of LP-1 and PP-1 operating at 208Y/120 V, three-phase, four-wire.
 
-**LP-1**
+### LP-1
+
 - 125 A panel
 - Supplies building lighting circuits
 - Fed from T-1 through CB-11
 
-**PP-1**
+### PP-1
+
 - 200 A panel
 - Supplies receptacles and dedicated equipment
 - Fed from T-2 through CB-21
+
+---
 
 ## Lighting Design
 
@@ -105,18 +118,14 @@ The secondary distribution system consists of LP-1 and PP-1 operating at 208Y/12
 
 Developed the lighting layout for the single-storey commercial office, including:
 
-- Office lighting
-- General-area lighting
+- Office and general-area lighting
 - Conference and reception lighting
 - Storage and electrical-room lighting
 - Washroom lighting
-- Egress lighting
-- Exterior lighting
+- Egress and exterior lighting
 - Lighting switches
 - Fixture identification
 - LP-1 circuit assignments
-
-The lighting system is divided into four primary circuit groups:
 
 | Circuit | Description |
 |---|---|
@@ -124,6 +133,8 @@ The lighting system is divided into four primary circuit groups:
 | L2 | General Lighting |
 | L3 | Egress Lighting |
 | L4 | Exterior Lighting |
+
+---
 
 ## Power Design
 
@@ -133,14 +144,7 @@ The lighting system is divided into four primary circuit groups:
 
 ### E-202 — Power Plan
 
-Developed the building receptacle and equipment power layout, including:
-
-- General receptacles
-- Office receptacles
-- Washroom GFCI receptacles
-- Dedicated equipment power
-- Electrical-room equipment
-- PP-1 circuit assignments
+Developed the building receptacle and equipment power layout, including general receptacles, office receptacles, washroom GFCI devices, dedicated equipment power, and PP-1 circuit assignments.
 
 | Circuit | Description | Connected Load |
 |---|---|---:|
@@ -150,6 +154,8 @@ Developed the building receptacle and equipment power layout, including:
 | P4 | Miscellaneous / GFCI | 360 VA |
 
 **Total PP-1 Connected Load: 8.28 kVA**
+
+---
 
 ## Panel Schedules
 
@@ -161,21 +167,14 @@ Developed the building receptacle and equipment power layout, including:
 
 Developed coordinated panel schedules for the building lighting and receptacle distribution systems.
 
-### LP-1
-
-- 208Y/120 V
-- 3-phase, 4-wire
-- 125 A main
-- 989 VA modeled connected load
-
-### PP-1
-
-- 208Y/120 V
-- 3-phase, 4-wire
-- 200 A main
-- 8.28 kVA modeled connected load
+| Panel | Voltage | Main Rating | Modeled Connected Load |
+|---|---|---:|---:|
+| LP-1 | 208Y/120 V, 3Ø, 4W | 125 A | 989 VA |
+| PP-1 | 208Y/120 V, 3Ø, 4W | 200 A | 8.28 kVA |
 
 The schedules coordinate circuit numbers, connected loads, breaker arrangements, and downstream equipment with the lighting and power plans.
+
+---
 
 ## DP-1 Distribution
 
@@ -204,11 +203,11 @@ Using:
 - VLL = 600 V
 - PF = 1.0
 
-The calculated DP-1 connected-load current is approximately:
-
-**40.4 A**
+**Calculated DP-1 connected-load current: 40.4 A**
 
 DP-1 is shown with a 100 A main rating, providing capacity above the presently modeled connected load.
+
+---
 
 ## Motor Power & Control
 
@@ -222,8 +221,6 @@ Designed the power and control system for MTR-1, a 15 hp, 600 V, three-phase sup
 
 ### Motor Power Circuit
 
-The motor branch incorporates:
-
 - CB-M1 branch protection
 - M1 motor starter / contactor
 - OL-1 overload relay
@@ -235,8 +232,7 @@ The motor branch incorporates:
 Developed a 120 V control circuit incorporating:
 
 - HAND/AUTO selector control
-- STOP pushbutton
-- START pushbutton
+- STOP and START pushbuttons
 - Contactor seal-in contact
 - BAS automatic enable
 - Overload protection
@@ -246,6 +242,8 @@ Developed a 120 V control circuit incorporating:
 The estimated motor operating current was calculated using an assumed power factor of 0.85 and efficiency of 90%.
 
 **Estimated MTR-1 Operating Current: 14.1 A**
+
+---
 
 ## HVAC Power & Control
 
@@ -257,39 +255,31 @@ The estimated motor operating current was calculated using an assumed power fact
 
 Developed electrical power and control interfaces for two packaged rooftop HVAC units.
 
-### HVAC-1
+| Equipment | Source | Supply | Branch | Disconnect |
+|---|---|---|---|---|
+| HVAC-1 | MSB-1 / CB-4 | 600 V, 3Ø | 60 A, 3P | DS-1 |
+| HVAC-2 | MSB-1 / CB-5 | 600 V, 3Ø | 60 A, 3P | DS-2 |
 
-- Supplied from MSB-1 through CB-4
-- 600 V, three-phase
-- 60 A branch circuit
-- DS-1 local disconnect
+The control interface incorporates:
 
-### HVAC-2
-
-- Supplied from MSB-1 through CB-5
-- 600 V, three-phase
-- 60 A branch circuit
-- DS-2 local disconnect
-
-The control interface includes:
-
-- BAS enable contact
-- Space thermostat
+- BAS enable contacts
+- Space thermostat inputs
 - RTU control terminals
-- Manufacturer-provided internal unit controls and safeties
+- Manufacturer-provided internal controls and safeties
 
-Manufacturer MCA and MOCP data were not selected for this portfolio design; therefore, the 60 A branch ratings are treated as project design selections rather than calculated equipment operating currents.
+Manufacturer MCA and MOCP data were not selected for this portfolio design; therefore, the 60 A branch ratings are treated as project design selections rather than calculated HVAC operating currents.
+
+---
 
 ## Electrical Calculations
 
 A separate Electrical Calculations & Design Basis document was developed to support the drawing package.
 
-The calculation package covers:
+### Calculation Scope
 
 - Main service and MSB-1 load assessment
 - Transformer loading
-- LP-1 connected load
-- PP-1 connected load
+- LP-1 and PP-1 connected loads
 - DP-1 three-phase load calculations
 - Motor operating-current estimation
 - HVAC electrical design basis
@@ -306,6 +296,10 @@ The calculation package covers:
 | MTR-1 | 15 hp / ~14.1 A |
 | Representative DP-1 Voltage Drop | 1.72 V / 0.29% |
 
+**[View the Complete Electrical Calculations](docs/COMMERCIAL%20OFFICE%20CALCULATIONS.pdf)**
+
+---
+
 ## Complete Drawing Set
 
 | Drawing | Description |
@@ -318,6 +312,10 @@ The calculation package covers:
 | E-302 | DP-1 Panel Schedule & Load Detail |
 | E-401 | MCC-1 Motor Power & Control |
 | E-402 | HVAC Power & Control |
+
+**[View the Complete 8-Sheet Drawing Package](docs/Commercial%20Office%20Electrical%20Drawing%20Set.pdf)**
+
+---
 
 ## Project Gallery
 
@@ -336,6 +334,8 @@ The calculation package covers:
 | Motor Control | HVAC Power & Control |
 |:---:|:---:|
 | <img src="drawings/E-401_MCC1_Motor_Control.png" width="425"> | <img src="drawings/E-402_HVAC_Power_Control.png" width="425"> |
+
+---
 
 ## Lessons Learned
 
