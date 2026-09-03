@@ -1,7 +1,7 @@
 # Commercial Office Electrical Distribution & Controls Design
 
 <p align="center">
-  <img src="drawings/E-101_Main_Power_SLD.png" width="850">
+  <img src="Drawings/E-101_Main_Power_SLD.png" width="850">
 </p>
 
 An end-to-end commercial electrical design project covering power distribution, single-line diagrams, lighting and receptacle layouts, panel schedules, three-phase load calculations, motor control, and HVAC power and control interfaces.
@@ -12,7 +12,7 @@ Designed and developed a complete electrical distribution and controls drawing p
 
 The project develops the electrical system from a 600Y/347 V main service through 208Y/120 V secondary distribution, lighting and receptacle panels, mechanical loads, motor control, and rooftop HVAC equipment.
 
-The completed project consists of eight coordinated electrical drawings supported by a separate Electrical Calculations & Design Basis document.
+The completed project consists of eight coordinated electrical Drawings supported by a separate Electrical Calculations & Design Basis document.
 
 ## Project Documents
 
@@ -71,7 +71,7 @@ T-1 and T-2 step the 600 V distribution system down to 208Y/120 V for the buildi
 ## Main Power Distribution
 
 <p align="center">
-  <img src="drawings/E-101_Main_Power_SLD.png" width="850">
+  <img src="Drawings/E-101_Main_Power_SLD.png" width="850">
 </p>
 
 ### E-101 — Main Power Single-Line Diagram
@@ -87,7 +87,7 @@ T-1 and T-2 step the 600 V distribution system down to 208Y/120 V for the buildi
 ## Secondary Distribution
 
 <p align="center">
-  <img src="drawings/E-102_Secondary_Distribution_SLD.png" width="850">
+  <img src="Drawings/E-102_Secondary_Distribution_SLD.png" width="850">
 </p>
 
 ### E-102 — Secondary Distribution Single-Line Diagram
@@ -111,7 +111,7 @@ The secondary distribution system consists of LP-1 and PP-1 operating at 208Y/12
 ## Lighting Design
 
 <p align="center">
-  <img src="drawings/E-201_Lighting_Plan.png" width="850">
+  <img src="Drawings/E-201_Lighting_Plan.png" width="850">
 </p>
 
 ### E-201 — Lighting Plan
@@ -139,7 +139,7 @@ Developed the lighting layout for the single-storey commercial office, including
 ## Power Design
 
 <p align="center">
-  <img src="drawings/E-202_Power_Plan.png" width="850">
+  <img src="Drawings/E-202_Power_Plan.png" width="850">
 </p>
 
 ### E-202 — Power Plan
@@ -160,7 +160,7 @@ Developed the building receptacle and equipment power layout, including general 
 ## Panel Schedules
 
 <p align="center">
-  <img src="drawings/E-301_Panel_Schedules.png" width="850">
+  <img src="Drawings/E-301_Panel_Schedules.png" width="850">
 </p>
 
 ### E-301 — LP-1 & PP-1 Panel Schedules
@@ -179,7 +179,7 @@ The schedules coordinate circuit numbers, connected loads, breaker arrangements,
 ## DP-1 Distribution
 
 <p align="center">
-  <img src="drawings/E-302_DP1_Panel_Schedule.png" width="850">
+  <img src="Drawings/E-302_DP1_Panel_Schedule.png" width="850">
 </p>
 
 ### E-302 — DP-1 Panel Schedule & Load Detail
@@ -212,7 +212,7 @@ DP-1 is shown with a 100 A main rating, providing capacity above the presently m
 ## Motor Power & Control
 
 <p align="center">
-  <img src="drawings/E-401_MCC1_Motor_Control.png" width="850">
+  <img src="Drawings/E-401_MCC1_Motor_Control.png" width="850">
 </p>
 
 ### E-401 — MCC-1 Motor Power & Control
@@ -248,7 +248,7 @@ The estimated motor operating current was calculated using an assumed power fact
 ## HVAC Power & Control
 
 <p align="center">
-  <img src="drawings/E-402_HVAC_Power_Control.png" width="850">
+  <img src="Drawings/E-402_HVAC_Power_Control.png" width="850">
 </p>
 
 ### E-402 — HVAC Power & Control
@@ -321,19 +321,19 @@ A separate Electrical Calculations & Design Basis document was developed to supp
 
 | Main Power Distribution | Secondary Distribution |
 |:---:|:---:|
-| <img src="drawings/E-101_Main_Power_SLD.png" width="425"> | <img src="drawings/E-102_Secondary_Distribution_SLD.png" width="425"> |
+| <img src="Drawings/E-101_Main_Power_SLD.png" width="425"> | <img src="Drawings/E-102_Secondary_Distribution_SLD.png" width="425"> |
 
 | Lighting Plan | Power Plan |
 |:---:|:---:|
-| <img src="drawings/E-201_Lighting_Plan.png" width="425"> | <img src="drawings/E-202_Power_Plan.png" width="425"> |
+| <img src="Drawings/E-201_Lighting_Plan.png" width="425"> | <img src="Drawings/E-202_Power_Plan.png" width="425"> |
 
 | Panel Schedules | DP-1 Distribution |
 |:---:|:---:|
-| <img src="drawings/E-301_Panel_Schedules.png" width="425"> | <img src="drawings/E-302_DP1_Panel_Schedule.png" width="425"> |
+| <img src="Drawings/E-301_Panel_Schedules.png" width="425"> | <img src="Drawings/E-302_DP1_Panel_Schedule.png" width="425"> |
 
 | Motor Control | HVAC Power & Control |
 |:---:|:---:|
-| <img src="drawings/E-401_MCC1_Motor_Control.png" width="425"> | <img src="drawings/E-402_HVAC_Power_Control.png" width="425"> |
+| <img src="Drawings/E-401_MCC1_Motor_Control.png" width="425"> | <img src="Drawings/E-402_HVAC_Power_Control.png" width="425"> |
 
 ---
 
@@ -352,7 +352,7 @@ Through this project, I gained hands-on experience with:
 - Developing HAND/AUTO motor control and BAS interfaces.
 - Coordinating packaged HVAC equipment with electrical distribution.
 - Performing representative feeder voltage-drop calculations.
-- Developing coordinated electrical drawings and supporting calculation documentation.
+- Developing coordinated electrical Drawings and supporting calculation documentation.
 - Understanding the relationship between system architecture, calculations, equipment selection, and electrical documentation.
 
 ## Project Scope
