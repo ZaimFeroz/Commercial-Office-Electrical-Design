@@ -16,8 +16,8 @@ The completed project consists of eight coordinated electrical Drawings supporte
 
 ## Project Documents
 
-- [Complete 8-Sheet Electrical Drawing Set](docs/Commercial%20Office%20Electrical%20Drawing%20Set.pdf)
-- [Electrical Calculations & Design Basis](docs/COMMERCIAL%20OFFICE%20CALCULATIONS.pdf)
+- [Complete 8-Sheet Electrical Drawing Set](Dcuments/Commercial%20Office%20Electrical%20Drawing%20Set.pdf)
+- [Electrical Calculations & Design Basis](Dcuments/COMMERCIAL%20OFFICE%20CALCULATIONS.pdf)
 
 ## Features
 
@@ -296,7 +296,7 @@ A separate Electrical Calculations & Design Basis document was developed to supp
 | MTR-1 | 15 hp / ~14.1 A |
 | Representative DP-1 Voltage Drop | 1.72 V / 0.29% |
 
-**[View the Complete Electrical Calculations](docs/COMMERCIAL%20OFFICE%20CALCULATIONS.pdf)**
+**[View the Complete Electrical Calculations](Dcuments/COMMERCIAL%20OFFICE%20CALCULATIONS.pdf)**
 
 ---
 
@@ -313,7 +313,7 @@ A separate Electrical Calculations & Design Basis document was developed to supp
 | E-401 | MCC-1 Motor Power & Control |
 | E-402 | HVAC Power & Control |
 
-**[View the Complete 8-Sheet Drawing Package](docs/Commercial%20Office%20Electrical%20Drawing%20Set.pdf)**
+**[View the Complete 8-Sheet Drawing Package](Dcuments/Commercial%20Office%20Electrical%20Drawing%20Set.pdf)**
 
 ---
 
