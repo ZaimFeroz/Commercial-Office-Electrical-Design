@@ -16,8 +16,8 @@ The completed project consists of eight coordinated electrical Drawings supporte
 
 ## Project Documents
 
-- [Complete 8-Sheet Electrical Drawing Set](Dcuments/Commercial%20Office%20Electrical%20Drawing%20Set.pdf)
-- [Electrical Calculations & Design Basis](Dcuments/COMMERCIAL%20OFFICE%20CALCULATIONS.pdf)
+- [Complete 8-Sheet Electrical Drawing Set](Documents/Commercial%20Office%20Electrical%20Drawing%20Set.pdf)
+- [Electrical Calculations & Design Basis](Documents/COMMERCIAL%20OFFICE%20CALCULATIONS.pdf)
 
 ## Features
 
